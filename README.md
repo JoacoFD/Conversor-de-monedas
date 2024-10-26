@@ -44,3 +44,25 @@ Currency Converter App es una aplicación web diseñada para facilitar la conver
    ```bash
    git clone https://github.com/tu_usuario/currency-converter.git
    cd currency-converter
+   ## Crea un Entorno Virtual
+Es recomendable usar un entorno virtual para gestionar las dependencias del proyecto. Esto asegura que las bibliotecas instaladas no interfieran con otros proyectos.
+
+**En windows**: python -m venv .venv
+**En macOS/Linux**: python -m venv .venv
+
+## Activa en entorno
+
+**En windows:**: .venv\Scripts\activate
+**En macOS/Linux**: source .venv/bin/activate
+
+## Instala Dependencias
+
+Con el entorno virtual activado, instala las dependencias necesarias listadas en requirements.txt: **pip install -r requirements.txt**
+
+## Obtén una Clave de API
+ Para obtener las tasas de cambio en tiempo real, necesitarás una clave de API de Apilayer Currency API. Regístrate en https://Apilayer.com y obtén tu clave. Agrega esta clave en el archivo app.py
+ **API_KEY = 'tu_clave_api_aquí'**
+
+## Ejecución de la Aplicación
+
+**python app.py**
