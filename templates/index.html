@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Conversor de Monedas</title>
+</head>
+<body>
+    <h1>Conversor de Monedas</h1>
+    <form id="conversion-form">
+        <input type="number" name="amount" placeholder="Cantidad" required>
+        <select name="from_currency" required>
+            <option value="USD">Dólar Estadounidense (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+        <select name="to_currency" required>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="USD">Dólar Estadounidense (USD)</option>
+            <option value="GBP">Libra Esterlina (GBP)</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+        <button type="submit">Convertir</button>
+    </form>
+    <div id="result"></div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
