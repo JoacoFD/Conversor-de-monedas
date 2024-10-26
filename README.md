@@ -10,10 +10,6 @@ Una aplicación intuitiva y fácil de usar para la conversión de monedas en tie
 - [Requisitos Previos](#requisitos-previos)
 - [Configuración del Entorno](#configuración-del-entorno)
 - [Ejecución de la Aplicación](#ejecución-de-la-aplicación)
-- [API de Tasas de Cambio](#api-de-tasas-de-cambio)
-- [Capturas de Pantalla](#capturas-de-pantalla)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 
 ## Descripción
 
@@ -53,6 +49,7 @@ Es recomendable usar un entorno virtual para gestionar las dependencias del proy
 ## Activa en entorno
 
 **En windows:**: .venv\Scripts\activate
+
 **En macOS/Linux**: source .venv/bin/activate
 
 ## Instala Dependencias
